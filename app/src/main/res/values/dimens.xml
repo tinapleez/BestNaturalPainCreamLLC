@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_name_margin">8dp</dimen>
+    <dimen name="text_vendor">4dp</dimen>
+    <dimen name="text_phone">16dp</dimen>
+    <dimen name="text_www">4dp</dimen>
+    <dimen name="text_padding">1dp</dimen>
+    <dimen name="text_size_vendor">20sp</dimen>
+    <dimen name="image_margin">4dp</dimen>
+    <dimen name="text_size_name">24sp</dimen>
+    <dimen name="text_size_www">24sp</dimen>
+    <dimen name="text_size_phone">24sp</dimen>
+    <dimen name="text_www_padding">8dp</dimen>
+</resources>

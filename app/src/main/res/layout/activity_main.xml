@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80cbc4"
+    tools:context="com.bestnaturalpaincream.bestnaturalpaincreamllc.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image_logo"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="@dimen/image_margin"
+        android:layout_marginRight="@dimen/image_margin"
+        android:src="@drawable/bnpclogo2" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/vendor"
+        android:text="@string/text_name"
+        android:textSize="@dimen/text_size_name"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vendor"
+        style="@style/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/vendor2"
+        android:text="@string/text_vendor"
+        android:textSize="@dimen/text_size_vendor"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/vendor2"
+        style="@style/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/www"
+        android:text="@string/text_vendor2"
+        android:textSize="@dimen/text_size_vendor"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/www"
+        style="@style/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/phone"
+        android:autoLink="web"
+        android:textSize="@dimen/text_size_www"
+        android:padding="@dimen/text_www_padding"
+        android:text="@string/text_www"/>
+
+    <TextView
+        android:id="@+id/phone"
+        style="@style/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/text_phone"
+        android:autoLink="phone"
+        android:text="@string/text_phone"
+        android:textSize="@dimen/text_size_phone"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
